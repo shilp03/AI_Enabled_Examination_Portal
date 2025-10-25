@@ -11,12 +11,12 @@
             
             <tr>
                 <td >Login as Student</td>
-                <td><a href = ""></a></td>
+                <td><a href = "Student_Login.html"></a></td>
             </tr>
 
             <tr>
                 <td>Login as Admin</td>
-                <td><a href = ""> </a></td>
+                <td><a href = "Admin_Login.html"> </a></td>
             </tr>
 
             <tr>
