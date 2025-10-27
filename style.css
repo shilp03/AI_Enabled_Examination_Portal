@@ -1,0 +1,185 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+body{
+    background-color: beige;
+}
+
+#l_png{
+    height: 42px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 7%;
+    background-color: azure;
+    border-radius: 5px;
+    border: 10px;
+
+}
+.nav_links{
+    display: flex;
+    gap: 50px;
+}
+.nav_links li a{
+    color: black;
+    text-transform: capitalize;
+}
+
+
+
+.body{
+    margin: 2% 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Stu_login{
+    background-color: azure;
+    height: 400px;
+    width: 350px;
+    /* border-color: black; */
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.Adm_login{
+    background-color: azure;
+    height: 400px;
+    width: 350px;
+    /* border-color: black; */
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.S_content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    align-items: center;
+    /* padding: 2%; */
+}
+
+.S_content h2{
+    margin: 2%;
+}
+
+.A_content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    align-items: center;
+    /* padding: 2%; */
+}
+
+.A_content h2{
+    margin: 2%;
+}
+
+.S_content img{
+    height: auto;
+    max-height: 140px;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.A_content img{
+    height: auto;
+    max-height: 140px;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#S_Login{
+    /* padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #e6ffe6;
+    border: 2px solid #2e7d32;
+    color: #2e7d32;
+    font-weight: 500;
+    cursor: pointer;
+    width: 35%;
+    transition: 0.5s ease; */
+    padding: 10px 18px;
+    width: 55%;
+    border-radius: 8px;
+    border: none;
+    background: #1976d2;          /* Soft modern blue */
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+#S_Login:hover{
+    /* background-color: green;
+    border: 2px solid white;
+    color: green; */
+    background: #0d47a1;          /* Darker blue on hover */
+    color: white;
+    transform: translateY(-3px);  /* Button lift effect */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.S_content p a{
+    text-decoration: underline;
+}
+
+#A_Login{
+    /* padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #e6ffe6;
+    border: 2px solid #2e7d32;
+    color: #2e7d32;
+    font-weight: 500;
+    cursor: pointer;
+    width: 35%;
+    transition: 0.5s ease; */
+    padding: 10px 18px;
+    width: 55%;
+    border-radius: 8px;
+    border: none;
+    background: #1976d2;          /* Soft modern blue */
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+#A_Login:hover{
+    /* background-color: green;
+    border: 2px solid white;
+    color: green; */
+    background: #0d47a1;          /* Darker blue on hover */
+    color: white;
+    transform: translateY(-3px);  /* Button lift effect */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.A_content p a{
+    text-decoration: underline;
+}
+
+.footer{
+
+    margin: 2% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+html{
+    scroll-behavior: smooth;
+}
