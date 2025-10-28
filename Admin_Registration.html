@@ -4,34 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>examination center</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">
-        <table align="center" width="700" cellpading="10">
-            <tr>
-                <td colspan="2" align="center">admin registration
-                </td>
-            </tr>
-            
-            <tr>
-                <td>Name:</td>
-                <td><input type="text" name="Admin_Name" placeholder="enter your full name"></td>
-            </tr>
-
-            <tr>
-                <td>Admin Key:</td>
-                <td><input type="number" name="A_Key" placeholder="number only"></td>
-            </tr>
-
-            <tr>
-                <td>Password:</td>
-                <td><input type="password" name="S_Pass" id="S_Pass"></td>
-            </tr>
-
-            <tr>
-                <input type="submit" value="Register">
-            </tr>
-        </table>
-    </form>
+    <div class="AR_body">
+        <div class="AR_container">
+            <div class="ARN_row">
+                <label for="F_name">First Name:</label>
+                <input type="text" name="F_name" id="F_name">
+            </div>
+            <div class="ARN_row">
+                <label for="L_name">Last Name:</label>
+                <input type="text" name="L_name" id="L_name">
+            </div>
+            <br>
+            <div class="AR_row">
+                <label for="A_no">Admin No:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <br>
+            <div class="AR_row">
+                <label for="pass">Password:</label>
+                <input type="password" name="pass" id="pass">
+            </div>
+            <br>
+            <a href="Login_Page.html">
+                <button id="completebtn">Register</button>
+            </a>
+            <br>
+            <br>
+            <article class="notice">
+                <h2>Note</h2>
+                <br>
+                <ul>
+                    <li>Your enrollment number will be your Username.</li>
+                    <br>
+                    <li>Keep your Password strong(use Alphabets,Number&special charecters.)</li>
+                    <br>
+                    <li>Keep your Passweord safe.</li>
+                </ul>
+                
+            </article>
+        </div>
+    </div>
 </body>
 </html>

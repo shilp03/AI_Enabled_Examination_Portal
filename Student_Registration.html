@@ -4,61 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>examination center</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">
-        <table align="center" width="700" cellpading="10">
-            <tr>
-                <td colspan="2" align="center">student registration
-                </td>
-            </tr>
-            
-            <tr>
-                <td>Name:</td>
-                <td><input type="text" name="Student_Name" placeholder="enter your full name"></td>
-            </tr>
-
-            <tr>
-                <td>Enrollment No:</td>
-                <td><input type="number" name="Enrollment" placeholder="number only" step="1" ></td>
-            </tr>
-
-            <tr>
-                <td>Department:</td>
-                <td><select name="Department" id="Department">
-                    <option value="" disabled selected>Select an option</option>
-                    <option value="CE">CE</option>
-                    <option value="IT">IT</option>
-                    <option value="RA">RA</option>
-                    <option value="EC">EC</option>
-                    <option value="IC">IC</option>
-                </select></td>
-            </tr>
-
-            <tr>
-                <td>Semister:</td>
-                <td><select name="SEM" id="SEM">
-                    <option value=""selection dissabled>select semister</option>
-                    <option value="SEM1">1</option>
-                    <option value="SEM2">2</option>
-                    <option value="SEM3">3</option>
-                    <option value="SEM4">4</option>
-                    <option value="SEM5">5</option>
-                    <option value="SEM6">6</option>
-                    <option value="SEM7">7</option>
-                    <option value="SEM8">8</option>
-                </select></td>
-            </tr>
-
-            <tr>
-                <td>Password:</td>
-                <td><input type="password" name="S_Pass" id="S_Pass"></td>
-            </tr>
-
-            <tr>
-                <input type="submit" value="Register">
-            </tr>
-        </table>
-    </form>
+    <div class="SR_body">
+        <div class="SR_container">
+            <div class="personal_detail">
+                <div class="SRN_row">
+                    <label for="F_name">First Name:</label>
+                    <input type="text" name="F_name" id="F_name">
+                </div>
+                <div class="SRN_row">
+                    <label for="L_name">Last Name:</label>
+                    <input type="text" name="L_name" id="L_name">
+                </div>
+            </div>
+            <br>
+            <div class="SR_row">
+                <label for="E_no">Enrollment No:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <br>
+            <div class="SR_row">
+                <label for="pass">Password:</label>
+                <input type="password" name="pass" id="pass">
+            </div>
+            <br>
+            <a href="Login_Page.html">
+                <button id="completebtn">Register</button>
+            </a>
+            <br>
+            <br>
+            <article class="notice">
+                <h2>Note</h2>
+                <br>
+                <ul>
+                    <li>Your enrollment number will be your Username.</li>
+                    <br>
+                    <li>Keep your Password strong(use Alphabets,Number&special charecters.)</li>
+                    <br>
+                    <li>Keep your Passweord safe.</li>
+                </ul>
+                
+            </article>
+        </div>
+    </div>
 </body>
 </html>
