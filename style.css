@@ -346,3 +346,38 @@ html{
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
+
+.S_nav{
+    width: 100%;
+}
+
+.S_nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Evenly spreads items */
+    align-items: center;
+    margin: 0px;
+    padding: 15px 0;
+    background-color: azure; /* Light background like in screenshot */
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.S_nav ul li{
+    cursor: pointer;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.S_nav ul li:hover{
+    background-color: #1976d2;
+    color: white;
+}
+
+/* .S_Dnav{
+    display: flex;
+    justify-content: center;
+} */
