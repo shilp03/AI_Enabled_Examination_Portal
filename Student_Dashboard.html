@@ -6,7 +6,7 @@
     <title>Student Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="dashboard-page">
     <section id="navbar">
         <nav class="S_nav">
             <div class="S_Dnav">
@@ -19,16 +19,68 @@
         </nav>
     </section>
     <div class="SD_container">
-        <div class="SD_Profile">
-            <img src="#" alt="img">
-            <br>
-            <div class="row">
-                <label for="SD_Name">
-                    Name:
-                </label>
-                
+        <div class="profile-box">
+            <div class="SD_Profile-photo">
+                <img src="#" id="Stu_Photo" alt="image">
+            </div>
+            <div class="SD_profile_details">
+                <p><strong>Name:</strong> <span id="studentName">Loading...</span></p>
+                <p><strong>Enrollment No:</strong> <span id="studentEnroll">Loading...</span></p>
+                <p><strong>Course:</strong> <span id="studentCourse">Loading...</span></p>
             </div>
         </div>
+
+        <div class="Dynamic_Dashb">
+            <section id="todays_examblock">
+                <div class="current_exam">
+                    <h2>Current Sem Exams:</h2>
+                    <div class="teb_row">
+                        <h3>todays exam...</h3>
+                        <p><strong>Time:</strong><span id="ExamTime">Loadin...</span></p>
+                    </div>
+                    <a href="#">
+                        <button id="EnterExam">Start</button>
+                    </a>
+                    <br>
+                    <br>
+                    <h3>Previous Sem Exams:</h3>
+                    <div class="teb_row">
+                        <h2>todays exam...</h2>
+                        <p><strong>Time:</strong><span id="ExamTime">Loadin...</span></p>
+                    </div>
+                    <a href="#">
+                        <button id="EnterExam">Start</button>
+                    </a>
+                </div>
+            </section>
+            <section id="UpnextExam_block">
+                <div class="Upcomming_Exam">
+                    <div class="current_timetable">
+                        <h3>Exams Scheduled for the Current Semester</h3>
+                        <div class="teb_row">
+                            <h3>loading exam...</h3>
+                            <p><strong>Time:</strong><span id="ExamTime">Loadin...</span></p>
+                        </div>
+                        <a href="#">
+                            <button id="ExamNotify">Notify Me</button>
+                        </a>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="Backllogs_timetable">
+                        <h3>Exams Scheduled for the Previous Semester</h3>
+                        <div class="teb_row">
+                            <h3>loading exam...</h3>
+                            <p><strong>Time:</strong><span id="ExamTime">Loadin...</span></p>
+                        </div>
+                        <a href="#">
+                            <button id="ExamNotify">Notify Me</button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
+
 </body>
 </html>
